@@ -19,7 +19,7 @@ $connection = getConnectionWithAccessToken($consumerkey, $consumersecret, $acces
 $tweets = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=".$twitteruser."&count=".$notweets);
 
 echo json_encode($tweets);
-$file = $twitteruser."-tweets.txt";
+$file = "/var/www/mainsite/a/homepage/php/pennmanor-tweets.txt";
 $fh = fopen($file, 'w') or die("can't open file");
 fwrite($fh, json_encode($tweets));
 fclose($fh);
