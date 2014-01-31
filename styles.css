@@ -113,7 +113,8 @@ h3 {
  font-size: 1.5em;
  color: #aca589;
  line-height: 1em;
- padding-bottom: 10px;
+ padding-bottom: 5px;
+ text-align: center;
 }
 
 h4 {
@@ -251,8 +252,9 @@ LAYOUT
 .col {
  width: 260px;
  margin-right: 30px;
+ margin-bottom: 5px;
  float: left;
- height: 300px;
+ height: 310px;
 }
 
 .col2 {
@@ -276,19 +278,19 @@ LAYOUT
  height: 130px;
 }
 
-.box {  
- border-radius: 25px;  
- -moz-border-radius: 25px;  
- -webkit-border-radius: 25px; 
- background-color: #fff; 
- padding: 20px;
+.box {
+ border-radius: 25px;
+ -moz-border-radius: 25px;
+ -webkit-border-radius: 25px;
+ background-color: #fff;
+ padding: 10px 20px;
 }
 
-/*.twitterbox {  
- border-radius: 10px;  
- -moz-border-radius: 10px;  
- -webkit-border-radius: 10px; 
- background-color: #fff; 
+/*.twitterbox {
+ border-radius: 10px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ background-color: #fff;
  padding: 0px;
 }
 */
@@ -300,7 +302,7 @@ LAYOUT
  border-radius: 25px;  
  -moz-border-radius: 25px;  
  -webkit-border-radius: 25px;
- padding: 20px;
+ padding: 10px 20px;
 }
 
 /* BEGIN TWITTER WIDGET */
@@ -418,11 +420,11 @@ LAYOUT
  clear: both;
 }
 
-.footerbox {  
- border-radius: 20px;  
- -moz-border-radius: 20px;  
- -webkit-border-radius: 20px; 
- background-color: #002f65;; 
+.footerbox {
+ border-radius: 10px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ background-color: #002f65;
  /*background-color: #1a82f7;
  background-image: url(images/grade3.jpg);
  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#002f65), to(#a2905e));
@@ -430,7 +432,7 @@ LAYOUT
  background-image:    -moz-linear-gradient(left, #002f65, #a2905e);
  background-image:     -ms-linear-gradient(left, #002f65, #a2905e);
  background-image:      -o-linear-gradient(left, #002f65, #a2905e);*/
- padding: 20px;
+ padding: 10px;
  text-transform: uppercase;
 }
 
