@@ -186,10 +186,35 @@ LAYOUT
 }
 
 #nav li { 
+ margin-top: 5px;
  margin-left: 10px;
  float: left;
+ position: relative;
  list-style-type: none;
  list-style-image: none;
+}
+
+#nav ul li ul { 
+ display: none;
+}
+
+#nav ul li:hover ul { 
+ border-top: 10px;
+ margin-left: 0px;
+ width: 200px;
+ position: absolute;
+ list-style-type: none;
+ list-style-image: none;
+ display: block;
+}
+
+#nav ul li:hover ul > li { 
+ margin-top: 18px;
+ margin-left: 0px;
+ list-style-type: none;
+ list-style-image: none;
+ display: block;
+ float: left;
 }
 
 #descrip {
@@ -399,13 +424,23 @@ LAYOUT
  color: #002f65;
 }
 
-.navbox {  
+.navbox a {  
  border-radius: 10px;  
  -moz-border-radius: 10px;  
  -webkit-border-radius: 10px; 
 /* background-color: #6666ff; */
  background-color: #a2905e;
- padding: 5px 10px;
+ padding: 6px 10px;
+/* opacity: 0.8; */
+}
+
+.subnavbox a {
+/* border-radius: 20px;
+ -moz-border-radius: 10px;  
+ -webkit-border-radius: 10px; 
+/* background-color: #6666ff; */
+ background-color: #a2905e;
+ padding: 6px 10px;
 /* opacity: 0.8; */
 }
 
