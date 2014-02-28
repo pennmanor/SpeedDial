@@ -1,6 +1,6 @@
 /*
-Template Name: Thr3e	
-Theme URI: http://www.tswartz.net	
+Template Name: Thr3e
+Theme URI: http://www.tswartz.net
 Description: CSS3 Template using 3 columns
 Version: 1.1
 Author: Tom Swartz
@@ -82,34 +82,34 @@ ol li {
 TYPE
 ------------------------------------***/
 
-@font-face {  
- font-family: 'Ubuntu-R';  
- src: url('fonts/Ubuntu-R.ttf');  
-}  
-
-.font {  
- font-family: Ubuntu-R;   
+@font-face {
+ font-family: 'Ubuntu-R';
+ src: url('fonts/Ubuntu-R.ttf');
 }
 
-.font-shadow {     
+.font {
+ font-family: Ubuntu-R;
+}
+
+.font-shadow {
  text-shadow: 0 1px 3px #000;
 }
 
-h1 { 
+h1 {
  font-size: 2.25em;
  color: #fff;
 }
 
-h1 span { 
+h1 span {
  color: #a2905e;
-}  
+}
 
-h2 { 
+h2 {
  font-size: 3em;
  color: #fff;
 }
 
-h3 { 
+h3 {
  font-size: 1.5em;
  color: #aca589;
  line-height: 1em;
@@ -129,7 +129,7 @@ h6 {
  font-size: 0.75em;
 }
 
-strong { 
+strong {
  font-weight: bold;
 }
 
@@ -151,15 +151,15 @@ subtext {
 LAYOUT
 ------------------------------------***/
 
-#container { 
+#container {
  margin: 0 auto;
 }
 
-#top { 
- margin: 0 auto;  
+#top {
+ margin: 0 auto;
 }
 
-#header { 
+#header {
  width: 960px;
  margin: 0 auto;
 }
@@ -185,11 +185,36 @@ LAYOUT
  border: 0;
 }
 
-#nav li { 
+#nav li {
+ margin-top: 5px;
  margin-left: 10px;
  float: left;
+ position: relative;
  list-style-type: none;
  list-style-image: none;
+}
+
+#nav ul li ul {
+ display: none;
+}
+
+#nav ul li:hover ul {
+ border-top: 10px;
+ margin-left: 0px;
+ width: 200px;
+ position: absolute;
+ list-style-type: none;
+ list-style-image: none;
+ display: block;
+}
+
+#nav ul li:hover ul > li {
+ margin-top: 18px;
+ margin-left: 0px;
+ list-style-type: none;
+ list-style-image: none;
+ display: block;
+ float: left;
 }
 
 #descrip {
@@ -298,21 +323,21 @@ LAYOUT
  float: left;
  background-color: #fff;
  width: 260px;
- height: 300px; 
- border-radius: 25px;  
- -moz-border-radius: 25px;  
+ height: 300px;
+ border-radius: 25px;
+ -moz-border-radius: 25px;
  -webkit-border-radius: 25px;
  padding: 10px 20px;
 }
 
 /* BEGIN TWITTER WIDGET */
-/*.col2 .twitterfeed	{	
+/*.col2 .twitterfeed	{
  float: left;
  background-color: #fff;
  width: 260px;
- height: 300px; 
- border-radius: 25px;  
- -moz-border-radius: 25px;  
+ height: 300px;
+ border-radius: 25px;
+ -moz-border-radius: 25px;
  -webkit-border-radius: 25px;
  padding: 20px;
 }
@@ -334,7 +359,7 @@ LAYOUT
 	padding: 10px 5px 10px 10px;
 	margin: 10px 10px 25px 0px;
 	text-shadow: 0 1px 0 #fff;
-	border: 1px solid #d8d8d8; 
+	border: 1px solid #d8d8d8;
 }
 */
 .col2 h3 a {
@@ -399,13 +424,23 @@ LAYOUT
  color: #002f65;
 }
 
-.navbox {  
- border-radius: 10px;  
- -moz-border-radius: 10px;  
- -webkit-border-radius: 10px; 
+.navbox a {
+ border-radius: 10px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
 /* background-color: #6666ff; */
  background-color: #a2905e;
- padding: 5px 10px;
+ padding: 6px 10px;
+/* opacity: 0.8; */
+}
+
+.subnavbox a {
+/* border-radius: 20px;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+/* background-color: #6666ff; */
+ background-color: #a2905e;
+ padding: 6px 10px;
 /* opacity: 0.8; */
 }
 
