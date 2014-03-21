@@ -11,6 +11,8 @@ About the code
 staff to access the time-clock system.
 - `twitter.html` provides info caching for the OAUTH
 twitter widget.
+- `php/twittercron.php` is the script to pull recent Twitter tweets
+- `php/twittercronphp.sh` is the file to be used in a cronjob
 
 Uploading changes
 ----------------
