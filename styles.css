@@ -258,9 +258,9 @@ LAYOUT
 }
 
 .col2 {
- width: 260px;
- float: left;
- height: 300px;
+	width: 260px;
+	float: left;
+	height: 310px;
 }
 
 .bcol {
@@ -272,10 +272,10 @@ LAYOUT
 }
 
 .bcol2 {
- width: 260px;
- margin-top: 10px;
- float: left;
- height: 130px;
+	width: 260px;
+	margin-top: 10px;
+	float: left;
+	height: 130px;
 }
 
 .box {
@@ -295,14 +295,14 @@ LAYOUT
 }
 */
 .twitterbox {
- float: left;
- background-color: #fff;
- width: 260px;
- height: 300px; 
- border-radius: 25px;  
- -moz-border-radius: 25px;  
- -webkit-border-radius: 25px;
- padding: 10px 20px;
+	float: left;
+	background-color: #fff;
+	width: 260px;
+	height: 310px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	padding: 10px 20px;
 }
 
 /* BEGIN TWITTER WIDGET */
