@@ -67,8 +67,9 @@ audio:not([controls]) {
 
 html {
   font-size: 100%;
+  background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 a:focus {
@@ -227,7 +228,16 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
+  /* TODO: Not happy with the gradient steps, fix */
   background-color: #ffffff;
+  background: #BDBDBD; /* Old browsers */
+  background: -moz-linear-gradient(top,  #BDBDBD 0%, #BDBDBD 30%, #FFFFFF 50%, #FFFFFF 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#BDBDBD), color-stop(30%,#BDBDBD), color-stop(50%,#FFFFFF), color-stop(100%,#FFFFFF)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #BDBDBD 0%,#BDBDBD 30%,#FFFFFF 50%,#FFFFFF 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #BDBDBD 0%,#BDBDBD 30%,#FFFFFF 50%,#FFFFFF 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #BDBDBD 0%,#BDBDBD 30%,#FFFFFF 50%,#FFFFFF 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #BDBDBD 0%,#BDBDBD 30%,#FFFFFF 50%,#FFFFFF 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BDBDBD', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
 }
 
 a {
@@ -266,6 +276,9 @@ a:focus {
 .row {
   margin-left: -20px;
   *zoom: 1;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
 }
 
 .row:before,
@@ -294,6 +307,15 @@ a:focus {
 
 .span12 {
   width: 940px;
+  font-size: 0.75em;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color: #002f65;
 }
 
 .span11 {
@@ -326,6 +348,15 @@ a:focus {
 
 .span4 {
   width: 300px;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+
+.greybox {
+  background-color: #E8E8E8;
 }
 
 .span3 {
@@ -894,10 +925,47 @@ dd {
 }
 
 hr {
-  margin: 20px 0;
-  border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
+ width: 90%;
+ height: 1px;
+ background: #dfdfdf;
+ display: block;
+ border: none;
+ margin: 2px 0px 2px 0px;
+}
+
+#tweet {
+ float: none;
+ clear: both;
+ font-size: 0.75em;
+}
+
+#tweet a {
+ color: #002f65;
+}
+
+#tweet p {
+ margin: 5px 15px 0px 15px;
+ padding-bottom: 3px;
+}
+
+#web_intent {
+ margin: 0px 0px 0px 15px;
+}
+
+#web_intent	a:link, #web_intent	a:visited, #web_intent a:active {
+ margin: 0px 10px 0px 0px;
+ color: #a2905e;
+}
+
+#web_intent img {
+ margin: 0px 3px 0px 0px;
+ position: relative;
+ top: 2px;
+}
+
+#web_intent .time {
+ margin: 0px 10px 0px 0px;
+ color: #a2905e;
 }
 
 abbr[title],
@@ -4791,20 +4859,21 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inverse .navbar-inner {
-  background-color: #1b1b1b;
-  background-image: -moz-linear-gradient(top, #222222, #111111);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
-  background-image: -webkit-linear-gradient(top, #222222, #111111);
-  background-image: -o-linear-gradient(top, #222222, #111111);
-  background-image: linear-gradient(to bottom, #222222, #111111);
+  background-color: #002f65;
+  background-image: -moz-linear-gradient(top, #002f65, #111111);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#002f65), to(#111111));
+  background-image: -webkit-linear-gradient(top, #002f65, #111111);
+  background-image: -o-linear-gradient(top, #002f65, #111111);
+  background-image: linear-gradient(to bottom, #002f65, #111111);
   background-repeat: repeat-x;
-  border-color: #252525;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+  border-color: #002f65;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff002F65', endColorstr='#ff111111', GradientType=0);
 }
 
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
-  color: #999999;
+  color: #A2905E;
+  font-family: Ubuntu-R;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -4812,11 +4881,15 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav > li > a:hover,
 .navbar-inverse .brand:focus,
 .navbar-inverse .nav > li > a:focus {
-  color: #ffffff;
+  color: #a2905e;
 }
 
 .navbar-inverse .brand {
-  color: #999999;
+  color: #fff;
+}
+
+.navbar-inverse .brand emph {
+  color: #a2905e;
 }
 
 .navbar-inverse .navbar-text {
