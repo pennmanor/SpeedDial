@@ -21,9 +21,9 @@ function relative_time(time_value) {
 
   var r = '';
   if (delta < 60) {
-        r = 'a minute ago';
+        r = 'less than a minute ago';
   } else if(delta < 120) {
-        r = 'couple of minutes ago';
+        r = 'a few minutes ago';
   } else if(delta < (45*60)) {
         r = (parseInt(delta / 60)).toString() + ' minutes ago';
   } else if(delta < (90*60)) {
@@ -39,7 +39,7 @@ function relative_time(time_value) {
   	  return r;
 	}
 
-});	
+});
 
 
 // Create Usable Links
