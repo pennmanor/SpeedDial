@@ -7,6 +7,8 @@
 <meta name="description" content="Penn Manor Speed Dial">
 <meta name="author" content="Tom Swartz">
 
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 <style type="text/css">
 body {
@@ -62,17 +64,18 @@ body {
 			<a class="brand" href="#">Penn Manor Speed Dial</a>
 			<div class="nav-collapse collapse">
 				<ul class="nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="http://www.pennmanor.net/">Official Site</a></li>
+					<li><a href="https://mail.pennmanor.net/">Web Mail</a></li>
 					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tech Support<b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
+						<li class="nav-header">Staff Tech Support</li>
+						<li><a href="https://support.pennmanor.net/">Staff Ticket System</a></li>
+						<li><a href="https://support.pennmanor.net/index.php?/Knowledgebase/List">Tech Knowledgebase</a></li>
 						<li><a href="#">Something else here</a></li>
 						<li class="divider"></li>
-						<li class="nav-header">Nav header</li>
+						<li class="nav-header">Student Tech Support</li>
+						<li><a href="http://studentsupport.pennmanor.net">Student Ticket System</a></li>
 						<li><a href="#">Separated link</a></li>
 						<li><a href="#">One more separated link</a></li>
 					</ul>
@@ -83,10 +86,9 @@ body {
 	</div>
 </div>
 <div class="container">
-	<!-- Example row of columns -->
 	<div class="row">
 		<div class="span4">
-			<h2>Heading</h2>
+			<h2>District Links</h2>
 				<ul>
 					<li><a href="http://www.aesoponline.com/">Aesop</a></li>
 					<li><a href="http://blogs.pennmanor.net/list/">Blogs@PM</a></li>
@@ -102,11 +104,9 @@ body {
 					<li><a href="http://www.pennmanor.net/pennpoints/">Penn Points Newspaper</a></li>
 
 				</ul>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-			<p><a class="btn" href="#">View details &raquo;</a></p>
 		</div>
 		<div class="span4">
-			<h2>Heading</h2>
+			<h2>District Links</h2>
 				<ul>
 					<li><a href="http://phones.pennmanor.net">Phones <subtext>(New Phones Only)</subtext></a></li>
 					<li><a href="http://ots.pennmanor.net/">OTS InService System</a></li>
@@ -121,17 +121,52 @@ body {
 					<li><a href="http://filter.pennmanor.net">Web Filter</a></li>
 					<li><a href="http://mail.pennmanor.net">Web Mail</a></li>
 				</ul>
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-			<p><a class="btn" href="#">View details &raquo;</a></p>
 		</div>
 		<div class="span4">
-			<h2>Heading</h2>
+			<h2>PMSD Twitter</h2>
 				<div class="twitterfeed">
 					<h3><a href="http://twitter.com/pennmanor">PMSD's Twitter</a></h3>
 						<div id="tweet"></div>
 				</div>
 			<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-			<p><a class="btn" href="#">View details &raquo;</a></p>
+			<p><a class="btn" href="http://twitter.com/pennmanor">View More Tweets &raquo;</a></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span4">
+			<h4>Library Links</h2>
+			<ul>
+				<li><a href="http://www.pennmanor.net/libraries/">District Library</a></li>
+				<li><a href="https://sites.google.com/a/student.pennmanor.net/hslibrary/">High School</a></li>
+				<li><a href="https://moodle.pennmanor.net/course/view.php?id=23">Marticville</a></li>
+				<li><a href="https://moodle.pennmanor.net/course/view.php?id=590">Manor Middle</a></li>
+				<li><a href="https://moodle.pennmanor.net/course/view.php?id=675">Elementary Libraries</a></li>
+				<li><a href="http://www.lancaster.lib.pa.us/lcl/site/default.asp">Lancaster Libraries</a></li>
+			</ul>
+		</div>
+		<div class="span4">
+			<h4>Support Agencies</h2>
+			<ul>
+				<li><a href="http://www.iu13.org">IU13</a></li>
+				<li><a href="http://www.education.state.pa.us/">PA Dept ED</a></li>
+				<li><a href="https://www.perms.ed.state.pa.us/Screens/wfPublicAccess.aspx">ACT48 Credit Lookup</a> (PDE)</li>
+			</ul>
+			<p>School Violence Hotline:<br>
+			1.888.814.3684</p>
+		</div>
+		<div class="span4">
+			<h4>Elementary Reading &amp Math Series</h2>
+			<ul>
+				<li><a href="http://connected.mcgraw-hill.com">Math Teacher Page</a></li>
+				<li><a href="http://www.mhschool.com/math/mathconnects/">Math Student Book Online</a></li>
+				<li><a href="http://www-k6.thinkcentral.com/ePC/start.do">Reading Think Central</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="span12">
+			<p class="text-center">Emergency Hotline: <extension>x2333</extension> | Tech Support Hotline: <extension>x1776</extension>
+			<br/><copyright>Copyright &copy; 2012 - 2014 <a href="http://www.pennmanor.net/">Penn Manor School District</a></copyright>
 		</div>
 	</div>
 </div>
