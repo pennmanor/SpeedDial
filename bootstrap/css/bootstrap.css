@@ -279,6 +279,7 @@ a:focus {
   border-radius: 25px;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
+  padding-bottom: 10px;
 }
 
 .row:before,
@@ -327,6 +328,16 @@ a:focus {
   text-decoration: none;
 }
 
+.span12 copyright {
+ font-size: 0.75em;
+ font-weight: bold:
+}
+
+.span12 extension {
+ text-transform: lowercase;
+ color: #a2905e;
+}
+
 .span11 {
   width: 860px;
 }
@@ -366,6 +377,8 @@ a:focus {
 
 .greybox {
   background-color: #E8E8E8;
+  min-height: 170px !important;
+  padding-bottom: 10px;
 }
 
 .span3 {
@@ -934,12 +947,12 @@ dd {
 }
 
 hr {
- width: 90%;
+ width: 100%;
  height: 1px;
  background: #dfdfdf;
  display: block;
  border: none;
- margin: 2px 0px 2px 0px;
+ margin: 2px 2px 2px 0px;
 }
 
 #tweet {
@@ -4869,13 +4882,13 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-inverse .navbar-inner {
   background-color: #002f65;
-  background-image: -moz-linear-gradient(top, #002f65, #111111);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#002f65), to(#111111));
-  background-image: -webkit-linear-gradient(top, #002f65, #111111);
-  background-image: -o-linear-gradient(top, #002f65, #111111);
-  background-image: linear-gradient(to bottom, #002f65, #111111);
+  background-image: -moz-linear-gradient(top, #002f65, #002f65);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#002f65), to(#002f65));
+  background-image: -webkit-linear-gradient(top, #002f65, #002f65);
+  background-image: -o-linear-gradient(top, #002f65, #002f65);
+  background-image: linear-gradient(to bottom, #002f65, #002f65);
   background-repeat: repeat-x;
-  border-color: #002f65;
+  border-color: #fff;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff002F65', endColorstr='#ff111111', GradientType=0);
 }
 
