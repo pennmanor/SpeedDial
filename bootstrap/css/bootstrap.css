@@ -241,7 +241,7 @@ body {
 }
 
 a {
-  color: #0088cc;
+  color: #002f65;
   text-decoration: none;
 }
 
@@ -316,6 +316,15 @@ a:focus {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   background-color: #002f65;
+}
+
+.span12 a {
+  color: white;
+}
+
+.span12 a:hover {
+  color: #a2905e;
+  text-decoration: none;
 }
 
 .span11 {
