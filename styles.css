@@ -268,14 +268,12 @@ background-image:      -o-linear-gradient(top, #2F2727, #1a82f7);
         width: 260px;
         margin-right: 30px;
         margin-top: 10px;
-        float: left;
         height: 130px;
 }
 
 .bcol2 {
         width: 260px;
         margin-top: 10px;
-        float: left;
         height: 130px;
 }
 
@@ -398,6 +396,7 @@ border: 1px solid #d8d8d8;
         text-decoration: none;
         font-size: 0.8em;
         color: #002f65;
+        float: left;
 }
 
 .navbox {
