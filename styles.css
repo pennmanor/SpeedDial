@@ -39,7 +39,7 @@ body {
 	text-align: left;
 	vertical-align: top;
 	border: 0;
-	background: url(images/grade3.jpg) top left repeat-x;
+/*	background: url(images/grade3.jpg) top left repeat-x; */
 }
 
 img {
@@ -153,6 +153,7 @@ LAYOUT
 
 #container {
 	margin: 0 auto;
+        background: #002f65;
 }
 
 #top {
@@ -410,17 +411,18 @@ border: 1px solid #d8d8d8;
 }
 
 #footer {
-	width: 960px;
-	margin: 0 auto;
-	text-align: center;
-	font-size: 0.75em;
-	color: white;
+        background: #FFFFFF;
 	padding-top: 10px;
 	padding-bottom: 1px;
 	clear: both;
 }
 
 .footerbox {
+	width: 950px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0.75em;
+	color: white;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -432,8 +434,8 @@ border: 1px solid #d8d8d8;
 	background-image:    -moz-linear-gradient(left, #002f65, #a2905e);
 	background-image:     -ms-linear-gradient(left, #002f65, #a2905e);
 	background-image:      -o-linear-gradient(left, #002f65, #a2905e);*/
-padding: 10px;
-text-transform: uppercase;
+        padding: 10px;
+        text-transform: uppercase;
 }
 
 
