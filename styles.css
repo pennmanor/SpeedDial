@@ -53,7 +53,7 @@ a, a:link, a:visited {
 }
 
 a:hover {
-        color: #a2905e;
+        color: #A2905E;
         text-decoration: underline;
         border: 0;
 }
@@ -101,7 +101,7 @@ h1 {
 }
 
 h1 span {
-        color: #a2905e;
+        color: #A2905E;
 }
 
 h2 {
@@ -140,7 +140,7 @@ copyright {
 
 extension {
         text-transform: lowercase;
-        color: #a2905e;
+        color: #A2905E;
 }
 
 subtext {
@@ -153,7 +153,7 @@ LAYOUT
 
 #container {
         margin: 0 auto;
-        background: #002f65;
+        background: #002F65;
 }
 
 #top {
@@ -372,7 +372,7 @@ border: 1px solid #d8d8d8;
 
 #web_intent	a:link, #web_intent	a:visited, #web_intent a:active {
         margin: 0px 10px 0px 0px;
-        color: #a2905e;
+        color: #A2905E;
 }
 
 #web_intent img {
@@ -383,7 +383,7 @@ border: 1px solid #d8d8d8;
 
 #web_intent .time {
         margin: 0px 10px 0px 0px;
-        color: #a2905e;
+        color: #A2905E;
 }
 
 /* END TWITTER WIDGET */
@@ -396,7 +396,7 @@ border: 1px solid #d8d8d8;
         padding: 5px 20px 10px 20px;
         text-decoration: none;
         font-size: 0.8em;
-        color: #002f65;
+        color: #002F65;
         float: left;
 }
 
@@ -404,8 +404,7 @@ border: 1px solid #d8d8d8;
         border-radius: 10px;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
-        /* background-color: #6666ff; */
-        background-color: #a2905e;
+        background-color: #A2905E;
         padding: 5px 10px;
         /* opacity: 0.8; */
 }
@@ -426,7 +425,7 @@ border: 1px solid #d8d8d8;
         border-radius: 10px;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
-        background-color: #002f65;
+        background-color: #002F65;
         padding: 10px;
         text-transform: uppercase;
 }
@@ -453,5 +452,5 @@ LINKS
 
 #footer a:hover {
         text-decoration: none;
-        color: #a2905e;
+        color: #A2905E;
 }
