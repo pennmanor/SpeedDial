@@ -14,6 +14,10 @@ twitter widget.
 - `php/twittercron.php` is the script to pull recent Twitter tweets
 - `php/twittercronphp.sh` is the file to be used in a cronjob
 
+There is a branch titled `sanitized` which does not contain any external link
+references. This branch may and should be used in the event of an external
+internet outage. Simply run `git checkout sanitized` to select this version.
+
 Uploading changes
 ----------------
 Any additional links are welcome. Changes are
