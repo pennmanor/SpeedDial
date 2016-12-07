@@ -1,4 +1,4 @@
-FROM quay.io/pmsdengineers/production:baseimage-latest
+FROM quay.io/pennmanor/production:baseimage-latest
 MAINTAINER chad@pennmanor.net
 
 #Install php, nginx and run updates
