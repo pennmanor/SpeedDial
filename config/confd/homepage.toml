@@ -1,0 +1,12 @@
+[template]
+src = "config.php.tmpl"
+dest = "/var/www/html/php/config.php"
+keys = [
+  "/homepage/twitter/user",
+  "/homepage/twitter/consumerkey",
+  "/homepage/twitter/consumersecret",
+  "/homepage/twitter/accesstoken",
+  "/homepage/twitter/accesstokensecret",
+  "/homepage/twitter/cachefile",
+
+]

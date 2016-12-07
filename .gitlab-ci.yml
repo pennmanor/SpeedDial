@@ -1,0 +1,8 @@
+build:
+  image: docker:git
+  services:
+    - docker:dind
+  script:
+    - docker login -e="." -u="$QUAY_USER" -p="$QUAY_PASSWORD" quay.io
+    - docker build -t quay.io/pennmanor/production:homepage-$CI_PIPELINE_ID .
+    - docker push quay.io/pennmanor/production:homepage-$CI_PIPELINE_ID
