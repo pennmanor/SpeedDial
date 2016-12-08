@@ -1,1 +1,1 @@
-*/5 *     * * *     www-data   php /var/www/html/php/twit.php
+*/5 *     * * *     www-data   (cd /var/www/html/php/ ; php /var/www/html/php/twit.php)
