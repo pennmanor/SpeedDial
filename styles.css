@@ -307,6 +307,12 @@ background-image:      -o-linear-gradient(top, #2F2727, #1a82f7);
         padding: 10px 20px;
 }
 
+.twitterfeed {
+    overflow: scroll;
+    float: left;
+    height: inherit;
+}
+
 /*.twitterbox {
 border-radius: 10px;
 -moz-border-radius: 10px;
